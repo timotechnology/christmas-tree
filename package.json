@@ -1,0 +1,24 @@
+{
+    "name": "christmas-tree",
+    "version": "1.0.0",
+    "description": "Magical Christmas Tree with hand gesture control",
+    "main": "dist/server.js",
+    "scripts": {
+        "build:photos": "node build.js",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "dev": "npx tsx server.ts"
+    },
+    "keywords": [
+        "christmas",
+        "three.js",
+        "mediapipe",
+        "gestures"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0",
+        "tsx": "^4.0.0"
+    }
+}

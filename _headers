@@ -1,0 +1,24 @@
+# ML模型和WASM：1年缓存
+/*.task
+  Cache-Control: public, max-age=31536000, immutable
+
+/libs/mediapipe/wasm/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/hand_models/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# 库文件
+/libs/*
+  Cache-Control: public, max-age=31536000
+
+# 照片
+/photos/*
+  Cache-Control: public, max-age=86400
+
+# HTML和JSON
+/*.html
+  Cache-Control: public, max-age=300
+
+/*.json
+  Cache-Control: public, max-age=300
